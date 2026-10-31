@@ -1,0 +1,23 @@
+_commit: v1.12.1-14-gba959ac
+_src_path: /Users/crthomas/code/charlesthomas/homelab-template
+additionalResources: ''
+cnpg: false
+helm: true
+helmCrds: true
+helmName: cloudnative-pg
+helmRelease: cloudnative-pg
+helmRepo: https://cloudnative-pg.github.io/charts
+helmValues: helm/values.yaml
+helmVersion: 0.29.1
+homepageEnabled: false
+ingress: false
+labels: 'app.kubernetes.io/instance: cloudnative-pg'
+name: cloudnative-pg
+namespace: cnpg-system
+pvc: false
+reloader: false
+resources: []
+service: false
+serviceAccount: false
+upstreamURL: https://cloudnative-pg.io
+url: https://github.com/charlesthomas/homelab-cloudnative-pg
