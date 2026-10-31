@@ -1,7 +1,8 @@
-_commit: v1.12.1-14-gba959ac
+_commit: v1.12.1-16-gd9a8f1b
 _src_path: /Users/crthomas/code/charlesthomas/homelab-template
 additionalResources: ''
 cnpg: false
+grafanaDashboard: true
 helm: true
 helmCrds: true
 helmName: cloudnative-pg

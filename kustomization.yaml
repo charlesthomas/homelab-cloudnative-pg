@@ -20,3 +20,11 @@ helmCharts:
   repo: https://cloudnative-pg.github.io/charts
   valuesFile: helm/values.yaml
   version: 0.29.1
+configMapGenerator:
+- name: grafana-dashboard-cloudnative-pg
+  files:
+  - grafana/cloudnative-pg.json
+  options:
+    disableNameSuffixHash: true
+    labels:
+      grafana_dashboard: "1"
